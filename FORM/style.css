@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background: rgb(232, 248, 248);
+    font-family: 'Poppins';
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px 0px 20px;
+}
+
+.nav div.logo img{
+    max-width: 220px;
+    max-height: 100px;
+}
+
+.info{
+    font-size: 39px;
+    color:white;
+    text-shadow: 2px 2px 2px aqua;
+}
+
+nav a{
+    padding-left: 10px;
+    color: skyblue;
+    font-size: 20px;
+    padding-top: 20px;
+}
+nav a:hover{
+    transition-duration: 2.7s;
+    font-size: 40px;
+    color:white;
+    transform: translateZ(40px);
+    text-shadow: 2px 2px 2px aqua;
+}
+.form{
+    background: url(./map.png);
+    background-size: contain;
+    min-height: 100vh;
+}
+
+form .input{
+    display: flex;
+    justify-content: center;
+}
+
+.input input, textarea{
+    width: 49%;
+    border: 2px solid skyblue;
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+.input input{
+    height: 37px;
+}
+
+.input input#btn{
+    width: 30%;
+    background-color: skyblue;
+    color:#fff;
+    cursor: pointer;
+}
+input#btn:hover{
+    transition-duration: 2.7s;
+   background: lavenderblush;
+   color: darkblue;
+}
